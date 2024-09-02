@@ -1,0 +1,27 @@
+name: audio_player_trials
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  audio_session: ^0.1.21
+  bloc: ^8.1.0
+  flutter_bloc: ^8.1.6
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.13
+  rxdart: ^0.28.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
